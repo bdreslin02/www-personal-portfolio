@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Home | Brandon Dreslin </title>
+  </head>
+  <body>
+    <!-- ====== Navbar Section Start -->
+    <header class="header bg-transparent absolute top-0 left-0 z-40 w-full flex items-center transition">
+      <div class="container">
+        <div class="flex mx-[-16px] items-center justify-between relative">
+          <div class="px-4 w-60 max-w-full">
+            <a href="index.html" class="header-logo w-full block py-6 lg:py-8">
+              <img src="images/logo/logo.svg" alt="logo" class="w-full" />
+            </a>
+          </div>
+          <div class="flex px-4 justify-between items-center w-full">
+            <div>
+              <button
+                id="navbarToggler"
+                name="navbarToggler"
+                aria-label="navbarToggler"
+                class="block absolute right-4 top-1/2 translate-y-[-50%] lg:hidden focus:ring-2 ring-primary px-3 py-[6px] rounded-lg"
+              >
+                <span class="relative w-[30px] h-[2px] my-[6px] block bg-dark"></span>
+                <span class="relative w-[30px] h-[2px] my-[6px] block bg-dark"></span>
+                <span class="relative w-[30px] h-[2px] my-[6px] block bg-dark"></span>
+              </button>
+              <nav
+                id="navbarCollapse"
+                class="absolute py-5 lg:py-0 lg:px-4 xl:px-6 bg-white lg:bg-transparent shadow-lg rounded-lg max-w-[250px] w-full lg:max-w-full lg:w-full right-4 top-full hidden lg:block lg:static lg:shadow-none"
+              >
+                <ul class="blcok lg:flex">
+                  <li class="relative group">
+                    <a href="#home" class="menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0"> Home </a>
+                  </li>
+                  <li class="relative group">
+                    <a
+                      href="#about"
+                      class="menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12"
+                    >
+                      About
+                    </a>
+                  </li>
+                  <li class="relative group">
+                    <a
+                      href="#projects"
+                      class="menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12"
+                    >
+                      Projects
+                    </a>
+                  </li>
+                  <li class="relative group">
+                    <a
+                      href="#education"
+                      class="menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12"
+                    >
+                      Education
+                    </a>
+                  </li>
+                  <li class="relative group">
+                    <a
+                      href="#contact"
+                      class="menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                  <li class="relative group submenu-item">
+                    <a
+                      href="javascript:void(0)"
+                      class="text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:pl-0 lg:pr-4 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12 relative after:absolute after:w-2 after:h-2 after:border-b-2 after:border-r-2 after:border-current after:rotate-45 lg:after:right-0 after:right-1 after:top-1/2 after:translate-y-[-50%] after:mt-[-2px]"
+                    >
+                      More
+                    </a>
+                    <div
+                      class="submenu hidden relative lg:absolute w-[250px] top-full lg:top-[110%] left-0 rounded-sm lg:shadow-lg p-4 lg:block lg:opacity-0 lg:invisible group-hover:opacity-100 lg:group-hover:visible lg:group-hover:top-full bg-white transition-[top] duration-300"
+                    >
+                      <a href="blogs.html" class="block text-sm text-black rounded hover:text-primary py-[10px] px-4"> Blogs </a>
+
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.dreslinconsult.com/" class="block text-sm text-black rounded hover:text-primary py-[10px] px-4"> Dreslin Consulting Group </a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://linktr.ee/bdreslin" class="block text-sm text-black rounded hover:text-primary py-[10px] px-4"> Linktree </a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="sm:flex justify-end hidden pr-16 lg:pr-0">
+              <a
+                href="https://drive.google.com/file/d/14ydL3kOnhB78Hkaekvx73eUXPqAVfZpa/view?usp=sharing"
+                class="text-base font-bold text-white bg-primary rounded-full py-3 px-8 md:px-9 lg:px-8 xl:px-9 hover:shadow-signUp hover:bg-opacity-90 transition ease-in-out duration-300"
+              >
+                Download CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ====== Navbar Section End -->
+
+    <!-- ====== Hero Section Start -->
+    <section id="home" class="relative z-10 pt-[150px] lg:pt-[100px] 2xl:flex items-center 2xl:h-[700px]">
+      <div class="container">
+        <div class="flex flex-wrap mx-[-16px]">
+          <div class="w-full lg:w-1/2 self-center px-4">
+            <div>
+              <h1 class="text-base font-semibold text-primary mb-3">
+                👋 Hi! I am
+
+                <span class="font-bold text-black text-3xl sm:text-3xl md:text-[45px] leading-tight sm:leading-tight md:leading-[50px] block mt-1"> Brandon Dreslin </span>
+              </h1>
+              <h2 class="font-medium text-body-color text-lg md:text-xl mb-5">
+                Human Factors
+
+                <span class="text-black">Student </span>
+              </h2>
+              <p class="max-w-[470px] font-medium text-body-color text-base leading-relaxed mb-11">
+                Undergraduate researcher who aspires to design, develop, and integrate systems that advocate for the user.  
+              </p>
+              <div class="flex items-center">
+                <a
+                  href="#contact"
+                  class="text-base font-semibold text-white bg-primary py-3 px-8 mr-4 hover:shadow-signUp hover:bg-opacity-90 rounded-full transition duration-300 ease-in-out"
+                >
+                  Contact Me
+                </a>
+                <a
+                  href="#about"
+                  class="text-base font-semibold text-white bg-black py-3 px-8 hover:shadow-signUp hover:bg-opacity-90 rounded-full transition duration-300 ease-in-out"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 self-end px-4">
+            <div class="relative mt-12 lg:mt-0 z-10 2xl:absolute 2xl:bottom-0 2xl:right-40">
+              <img src="images/hero/hero-image.png" alt="image" class="max-w-full mx-auto" />
+              <span class="absolute lefter-[-8px] bottom-2 -z-1">
+                <svg width="40" height="38" viewBox="0 0 40 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M9.31451 3.18282L32.4926 6.24789C36.3084 6.75249 38.147 11.1986 35.8021 14.2508L21.5587 32.7911C19.2138 35.8434 14.444 35.2126 12.9731 31.6558L4.03852 10.0504C2.56762 6.49355 5.49873 2.67822 9.31451 3.18282Z"
+                    stroke="#4A6CF7"
+                    stroke-width="6"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <span class="absolute left-0 top-32 -z-1">
+          <svg width="48" height="95" viewBox="0 0 48 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="0.5" cy="47.5" r="47.5" fill="url(#paint0_radial_6:121)" />
+            <defs>
+              <radialGradient id="paint0_radial_6:121" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.5) rotate(90) scale(95)">
+                <stop stop-color="white" />
+                <stop offset="0.569" stop-color="#F0F4FD" />
+                <stop offset="0.993" stop-color="#D9E0F0" />
+              </radialGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="absolute right-0 bottom-0 -z-1">
+          <svg width="491" height="490" viewBox="0 0 491 490" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="356.5" cy="356.5" r="356.5" fill="url(#paint0_linear_6:37)" />
+            <defs>
+              <linearGradient id="paint0_linear_6:37" x1="356.5" y1="0" x2="356.5" y2="713" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#1E3BB3" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+      </div>
+    </section>
+    <!-- ====== Hero Section End -->
+
+    <!-- ====== About Section Start -->
+    <section id="about" class="pt-[145px] pb-[120px] relative z-10">
+      <div class="container">
+        <div class="flex flex-wrap mx-[-16px]">
+          <div class="w-full lg:w-1/2 xl:w-7/12 px-4 mb-8 lg:mb-0">
+            <span class="font-bold text-primary text-lg md:text-xl mb-3"> WHO I AM </span>
+            <h2 class="max-w-[400px] font-bold text-black text-3xl sm:text-4xl md:text-[45px] leading-tight sm:leading-tight md:leading-tight mb-5">
+              Better design, better experience
+            </h2>
+            <p class="max-w-[570px] font-medium text-base text-body-color">
+              Our world of interconnected systems has become more complex than ever. Using my knowledge, I want to uncomplicate the complicated.
+            </p>
+          </div>
+          <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
+            <h3 class="font-semibold text-black text-2xl md:text-3xl mb-6">Connect With Me</h3>
+            <p class="font-medium text-base text-body-color mb-10">
+              I'm always eager to learn about new perspectives! Feel free to reach out to me on any of these platforms. 
+            </p>
+            <div class="flex items-center">
+              <a
+                target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bdreslin/"
+                class="w-9 h-9 mr-3 rounded-full flex items-center justify-center border border-[#E5E8F2] text-body-color hover:bg-primary hover:border-primary hover:text-white"
+                aria-label="social-link"
+                name="social-link"
+              >
+                <svg width="14" height="14" viewBox="0 0 14 14" class="fill-current">
+                  <path
+                    d="M13.0214 0H1.02084C0.453707 0 0 0.451613 0 1.01613V12.9839C0 13.5258 0.453707 14 1.02084 14H12.976C13.5432 14 13.9969 13.5484 13.9969 12.9839V0.993548C14.0422 0.451613 13.5885 0 13.0214 0ZM4.15142 11.9H2.08705V5.23871H4.15142V11.9ZM3.10789 4.3129C2.42733 4.3129 1.90557 3.77097 1.90557 3.11613C1.90557 2.46129 2.45002 1.91935 3.10789 1.91935C3.76577 1.91935 4.31022 2.46129 4.31022 3.11613C4.31022 3.77097 3.81114 4.3129 3.10789 4.3129ZM11.9779 11.9H9.9135V8.67097C9.9135 7.90323 9.89082 6.8871 8.82461 6.8871C7.73571 6.8871 7.57691 7.74516 7.57691 8.60322V11.9H5.51254V5.23871H7.53154V6.16452H7.55423C7.84914 5.62258 8.50701 5.08065 9.52785 5.08065C11.6376 5.08065 12.0232 6.43548 12.0232 8.2871V11.9H11.9779Z"
+                  />
+                </svg>
+              </a>
+              <a
+                target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/brandon.dreslin.9/"
+                class="w-9 h-9 mr-3 rounded-full flex items-center justify-center border border-[#E5E8F2] text-body-color hover:bg-primary hover:border-primary hover:text-white"
+                aria-label="social-link"
+                name="social-link"
+              >
+                <svg width="7" height="14" viewBox="0 0 7 14" class="fill-current">
+                  <path
+                    d="M6.50914 5.6H5.42429H5.03684V5.14839V3.74839V3.29677H5.42429H6.23793C6.45103 3.29677 6.62538 3.11613 6.62538 2.84516V0.451613C6.62538 0.203226 6.4704 0 6.23793 0H4.82374C3.29332 0 2.22783 1.26452 2.22783 3.13871V5.10323V5.55484H1.84038H0.523056C0.251842 5.55484 0 5.80323 0 6.16452V7.79032C0 8.10645 0.213097 8.4 0.523056 8.4H1.80164H2.18909V8.85161V13.3903C2.18909 13.7065 2.40218 14 2.71214 14H4.53315C4.64939 14 4.74625 13.9323 4.82374 13.8419C4.90123 13.7516 4.95935 13.5935 4.95935 13.4581V8.87419V8.42258H5.36617H6.23793C6.48977 8.42258 6.6835 8.24194 6.72224 7.97097V7.94839V7.92581L6.99346 6.36774C7.01283 6.20968 6.99345 6.02903 6.87722 5.84839C6.83848 5.73548 6.66412 5.62258 6.50914 5.6Z"
+                  />
+                </svg>
+              </a>
+              <a
+                target="_blank" rel="noopener noreferrer" href="https://twitter.com/brandon_dreslin"
+                class="w-9 h-9 mr-3 rounded-full flex items-center justify-center border border-[#E5E8F2] text-body-color hover:bg-primary hover:border-primary hover:text-white"
+                aria-label="social-link"
+                name="social-link"
+              >
+                <svg width="19" height="14" viewBox="0 0 19 14" class="fill-current">
+                  <path
+                    d="M16.5892 2.41096L17.7333 1.09589C18.0645 0.739726 18.1548 0.465753 18.1849 0.328767C17.2817 0.821918 16.4387 0.986301 15.8968 0.986301H15.686L15.5656 0.876712C14.843 0.30137 13.9398 0 12.9763 0C10.8688 0 9.2129 1.58904 9.2129 3.42466C9.2129 3.53425 9.2129 3.69863 9.24301 3.80822L9.33333 4.35616L8.70107 4.32877C4.84731 4.21918 1.68602 1.20548 1.17419 0.684932C0.331183 2.05479 0.812903 3.36986 1.32473 4.19178L2.34839 5.72603L0.722581 4.90411C0.752688 6.05479 1.23441 6.9589 2.16774 7.61644L2.98064 8.16438L2.16774 8.46575C2.67957 9.86301 3.82366 10.4384 4.66667 10.6575L5.78064 10.9315L4.72688 11.589C3.04086 12.6849 0.933333 12.6027 0 12.5205C1.89677 13.726 4.15484 14 5.72043 14C6.89462 14 7.76774 13.8904 7.97849 13.8082C16.4086 12 16.8 5.15068 16.8 3.78082V3.58904L16.9806 3.47945C18.0043 2.60274 18.4258 2.13699 18.6667 1.86301C18.5763 1.89041 18.4559 1.94521 18.3355 1.9726L16.5892 2.41096Z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="absolute right-0 top-1/2 -translate-y-1/2">
+        <svg width="60" height="120" viewBox="0 0 60 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="60" cy="60" r="60" fill="url(#paint0_radial_18:24)" />
+          <defs>
+            <radialGradient id="paint0_radial_18:24" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(60) rotate(90) scale(120)">
+              <stop stop-color="white" />
+              <stop offset="0.569" stop-color="#F0F4FD" />
+              <stop offset="0.993" stop-color="#D9E0F0" />
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+    </section>
+    <!-- ====== About Section End  -->
+
+    <!-- ====== Skills Section Start  -->
+    <section id="skills">
+      <div class="container">
+        <div class="pt-[120px] pb-[90px] border-t border-[#E9ECF8]">
+          <div class="flex flex-wrap mx-[-16px]">
+            <div class="w-full px-4">
+              <div class="max-w-[600px] mx-auto text-center mb-[70px]">
+                <span class="font-semibold text-lg text-primary block mb-2"> What I Do </span>
+                <h2 class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5">My Skills</h2>
+                <p class="font-medium text-lg text-body-color">I study Human Factors. As an accelerated B.S./M.S. student, I have acquired the skills necessary to become a human factors practitioner.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap mx-[-16px]">
+            <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+              <div class="bg-white group hover:bg-primary shadow-service py-10 px-8 rounded-xl relative z-10 overflow-hidden text-center duration-200 mb-8">
+                <div
+                  class="mx-auto w-20 h-20 mb-6 rounded-full bg-primary flex items-center justify-center text-white group-hover:bg-white group-hover:text-primary"
+                >
+                  <svg width="35" height="33" viewBox="0 0 35 33" class="fill-current">
+                    <path
+                      d="M22.8335 14.0001C27.0002 14.0001 30.3335 17.3334 30.3335 21.5001C30.3335 22.9668 29.9168 24.3501 29.1835 25.5001L34.3168 30.6668L32.0002 32.9834L26.8002 27.8668C25.6502 28.5834 24.2835 29.0001 22.8335 29.0001C18.6668 29.0001 15.3335 25.6668 15.3335 21.5001C15.3335 17.3334 18.6668 14.0001 22.8335 14.0001ZM22.8335 17.3334C21.7284 17.3334 20.6686 17.7724 19.8872 18.5538C19.1058 19.3352 18.6668 20.395 18.6668 21.5001C18.6668 22.6052 19.1058 23.665 19.8872 24.4464C20.6686 25.2278 21.7284 25.6668 22.8335 25.6668C23.9386 25.6668 24.9984 25.2278 25.7798 24.4464C26.5612 23.665 27.0002 22.6052 27.0002 21.5001C27.0002 20.395 26.5612 19.3352 25.7798 18.5538C24.9984 17.7724 23.9386 17.3334 22.8335 17.3334ZM13.6668 0.666748C15.4349 0.666748 17.1306 1.36913 18.3809 2.61937C19.6311 3.86961 20.3335 5.56531 20.3335 7.33342C20.3335 8.85008 19.8168 10.2501 18.9668 11.3834C17.5335 11.9167 16.2502 12.7667 15.1835 13.8334L13.6668 14.0001C11.8987 14.0001 10.203 13.2977 8.95278 12.0475C7.70254 10.7972 7.00016 9.10153 7.00016 7.33342C7.00016 5.56531 7.70254 3.86961 8.95278 2.61937C10.203 1.36913 11.8987 0.666748 13.6668 0.666748ZM0.333496 27.3334V24.0001C0.333496 20.4668 5.85016 17.5667 12.8335 17.3334C12.3002 18.6334 12.0002 20.0334 12.0002 21.5001C12.0002 23.6501 12.6335 25.6668 13.6668 27.3334H0.333496Z"
+                    />
+                  </svg>
+                </div>
+                <h3 class="font-bold text-black text-xl sm:text-2xl lg:text-xl 2xl:text-2xl group-hover:text-white mb-3">HF Research</h3>
+                <p class="font-medium text-body-color group-hover:text-white leading-relaxed text-sm">Finding gaps in research, analyzing previous research, and discussing findings</p>
+                <div>
+                  <span class="absolute top-0 right-0 -z-1">
+                    <svg width="218" height="109" viewBox="0 0 218 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle opacity="0.05" cx="156.5" cy="-47.5" r="156.5" fill="white" />
+                      <circle opacity="0.08" cx="210" cy="6" r="62" fill="white" />
+                    </svg>
+                  </span>
+                  <span class="absolute bottom-1 left-1 -z-1">
+                    <svg width="23" height="32" viewBox="0 0 23 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="21.262" cy="1.12081" r="1.12081" transform="rotate(90 21.262 1.12081)" fill="white" />
+                      <circle cx="21.262" cy="30.4863" r="1.12081" transform="rotate(90 21.262 30.4863)" fill="white" />
+                      <circle cx="1.76005" cy="1.12081" r="1.12081" transform="rotate(90 1.76005 1.12081)" fill="white" />
+                      <circle cx="1.76005" cy="30.4863" r="1.12081" transform="rotate(90 1.76005 30.4863)" fill="white" />
+                      <circle cx="11.6228" cy="1.12081" r="1.12081" transform="rotate(90 11.6228 1.12081)" fill="white" />
+                      <circle cx="11.6228" cy="30.4863" r="1.12081" transform="rotate(90 11.6228 30.4863)" fill="white" />
+                      <circle cx="21.262" cy="10.9839" r="1.12081" transform="rotate(90 21.262 10.9839)" fill="white" />
+                      <circle cx="1.76005" cy="10.9839" r="1.12081" transform="rotate(90 1.76005 10.9839)" fill="white" />
+                      <circle cx="11.6228" cy="10.9839" r="1.12081" transform="rotate(90 11.6228 10.9839)" fill="white" />
+                      <circle cx="21.262" cy="20.8469" r="1.12081" transform="rotate(90 21.262 20.8469)" fill="white" />
+                      <circle cx="1.76005" cy="20.8469" r="1.12081" transform="rotate(90 1.76005 20.8469)" fill="white" />
+                      <circle cx="11.6228" cy="20.8469" r="1.12081" transform="rotate(90 11.6228 20.8469)" fill="white" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+              <div class="bg-white group hover:bg-primary shadow-service py-10 px-8 rounded-xl relative z-10 overflow-hidden text-center duration-200 mb-8">
+                <div
+                  class="mx-auto w-20 h-20 mb-6 rounded-full bg-primary flex items-center justify-center text-white group-hover:bg-white group-hover:text-primary"
+                >
+                  <svg width="36" height="36" viewBox="0 0 36 36" class="fill-current">
+                    <path
+                      d="M18.6668 28.6666C18.6668 28.1666 18.6668 27.4999 18.8335 26.9999H10.3335V23.6666H7.00016V10.3333H10.3335V6.99992H23.6668V10.3333H27.0002V18.8333C27.5002 18.6666 28.1668 18.6666 28.6668 18.6666C29.1668 18.6666 29.8335 18.6666 30.3335 18.8333V10.3333H33.6668V0.333252H23.6668V3.66659H10.3335V0.333252H0.333496V10.3333H3.66683V23.6666H0.333496V33.6666H10.3335V30.3333H18.8335C18.6668 29.8333 18.6668 29.1666 18.6668 28.6666ZM27.0002 3.66659H30.3335V6.99992H27.0002V3.66659ZM3.66683 3.66659H7.00016V6.99992H3.66683V3.66659ZM7.00016 30.3333H3.66683V26.9999H7.00016V30.3333ZM30.3335 21.9999V26.9999H35.3335V30.3333H30.3335V35.3333H27.0002V30.3333H22.0002V26.9999H27.0002V21.9999H30.3335Z"
+                    />
+                  </svg>
+                </div>
+                <h3 class="font-bold text-black text-xl sm:text-2xl lg:text-xl 2xl:text-2xl group-hover:text-white mb-3">HF Tools</h3>
+                <p class="font-medium text-body-color group-hover:text-white leading-relaxed text-sm">
+                  <b>Designing & Wireframing</b>: Figma, Axure <br> 
+                  <b>Analyzing Data</b>: SPSS
+                </p>
+                <div>
+                  <span class="absolute top-0 right-0 -z-1">
+                    <svg width="218" height="109" viewBox="0 0 218 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle opacity="0.05" cx="156.5" cy="-47.5" r="156.5" fill="white" />
+                      <circle opacity="0.08" cx="210" cy="6" r="62" fill="white" />
+                    </svg>
+                  </span>
+                  <span class="absolute bottom-1 left-1 -z-1">
+                    <svg width="23" height="32" viewBox="0 0 23 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="21.262" cy="1.12081" r="1.12081" transform="rotate(90 21.262 1.12081)" fill="white" />
+                      <circle cx="21.262" cy="30.4863" r="1.12081" transform="rotate(90 21.262 30.4863)" fill="white" />
+                      <circle cx="1.76005" cy="1.12081" r="1.12081" transform="rotate(90 1.76005 1.12081)" fill="white" />
+                      <circle cx="1.76005" cy="30.4863" r="1.12081" transform="rotate(90 1.76005 30.4863)" fill="white" />
+                      <circle cx="11.6228" cy="1.12081" r="1.12081" transform="rotate(90 11.6228 1.12081)" fill="white" />
+                      <circle cx="11.6228" cy="30.4863" r="1.12081" transform="rotate(90 11.6228 30.4863)" fill="white" />
+                      <circle cx="21.262" cy="10.9839" r="1.12081" transform="rotate(90 21.262 10.9839)" fill="white" />
+                      <circle cx="1.76005" cy="10.9839" r="1.12081" transform="rotate(90 1.76005 10.9839)" fill="white" />
+                      <circle cx="11.6228" cy="10.9839" r="1.12081" transform="rotate(90 11.6228 10.9839)" fill="white" />
+                      <circle cx="21.262" cy="20.8469" r="1.12081" transform="rotate(90 21.262 20.8469)" fill="white" />
+                      <circle cx="1.76005" cy="20.8469" r="1.12081" transform="rotate(90 1.76005 20.8469)" fill="white" />
+                      <circle cx="11.6228" cy="20.8469" r="1.12081" transform="rotate(90 11.6228 20.8469)" fill="white" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+              <div class="bg-white group hover:bg-primary shadow-service py-10 px-8 rounded-xl relative z-10 overflow-hidden text-center duration-200 mb-8">
+                <div
+                  class="mx-auto w-20 h-20 mb-6 rounded-full bg-primary flex items-center justify-center text-white group-hover:bg-white group-hover:text-primary"
+                >
+                  <svg width="40" height="25" viewBox="0 0 40 25" class="fill-current">
+                    <path
+                      d="M20 0.166748C21.5471 0.166748 23.0308 0.78133 24.1248 1.87529C25.2188 2.96925 25.8333 4.45298 25.8333 6.00008C25.8333 7.54718 25.2188 9.03091 24.1248 10.1249C23.0308 11.2188 21.5471 11.8334 20 11.8334C18.4529 11.8334 16.9692 11.2188 15.8752 10.1249C14.7812 9.03091 14.1667 7.54718 14.1667 6.00008C14.1667 4.45298 14.7812 2.96925 15.8752 1.87529C16.9692 0.78133 18.4529 0.166748 20 0.166748ZM8.33333 4.33341C9.26667 4.33341 10.1333 4.58341 10.8833 5.03341C10.6333 7.41675 11.3333 9.78341 12.7667 11.6334C11.9333 13.2334 10.2667 14.3334 8.33333 14.3334C7.00725 14.3334 5.73548 13.8066 4.7978 12.8689C3.86012 11.9313 3.33333 10.6595 3.33333 9.33341C3.33333 8.00733 3.86012 6.73556 4.7978 5.79788C5.73548 4.8602 7.00725 4.33341 8.33333 4.33341ZM31.6667 4.33341C32.9927 4.33341 34.2645 4.8602 35.2022 5.79788C36.1399 6.73556 36.6667 8.00733 36.6667 9.33341C36.6667 10.6595 36.1399 11.9313 35.2022 12.8689C34.2645 13.8066 32.9927 14.3334 31.6667 14.3334C29.7333 14.3334 28.0667 13.2334 27.2333 11.6334C28.6667 9.78341 29.3667 7.41675 29.1167 5.03341C29.8667 4.58341 30.7333 4.33341 31.6667 4.33341ZM9.16667 21.4167C9.16667 17.9667 14.0167 15.1667 20 15.1667C25.9833 15.1667 30.8333 17.9667 30.8333 21.4167V24.3334H9.16667V21.4167ZM0 24.3334V21.8334C0 19.5167 3.15 17.5667 7.41667 17.0001C6.43333 18.1334 5.83333 19.7001 5.83333 21.4167V24.3334H0ZM40 24.3334H34.1667V21.4167C34.1667 19.7001 33.5667 18.1334 32.5833 17.0001C36.85 17.5667 40 19.5167 40 21.8334V24.3334Z"
+                    />
+                  </svg>
+                </div>
+                <h3 class="font-bold text-black text-xl sm:text-2xl lg:text-xl 2xl:text-2xl group-hover:text-white mb-3">HF Methods</h3>
+                <p class="font-medium text-body-color group-hover:text-white leading-relaxed text-sm">HTA, CTA, SJT, Process Charting, HFACS, SHERPA, SAGAT, NASA-TLX</p>
+                <div>
+                  <span class="absolute top-0 right-0 -z-1">
+                    <svg width="218" height="109" viewBox="0 0 218 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle opacity="0.05" cx="156.5" cy="-47.5" r="156.5" fill="white" />
+                      <circle opacity="0.08" cx="210" cy="6" r="62" fill="white" />
+                    </svg>
+                  </span>
+                  <span class="absolute bottom-1 left-1 -z-1">
+                    <svg width="23" height="32" viewBox="0 0 23 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="21.262" cy="1.12081" r="1.12081" transform="rotate(90 21.262 1.12081)" fill="white" />
+                      <circle cx="21.262" cy="30.4863" r="1.12081" transform="rotate(90 21.262 30.4863)" fill="white" />
+                      <circle cx="1.76005" cy="1.12081" r="1.12081" transform="rotate(90 1.76005 1.12081)" fill="white" />
+                      <circle cx="1.76005" cy="30.4863" r="1.12081" transform="rotate(90 1.76005 30.4863)" fill="white" />
+                      <circle cx="11.6228" cy="1.12081" r="1.12081" transform="rotate(90 11.6228 1.12081)" fill="white" />
+                      <circle cx="11.6228" cy="30.4863" r="1.12081" transform="rotate(90 11.6228 30.4863)" fill="white" />
+                      <circle cx="21.262" cy="10.9839" r="1.12081" transform="rotate(90 21.262 10.9839)" fill="white" />
+                      <circle cx="1.76005" cy="10.9839" r="1.12081" transform="rotate(90 1.76005 10.9839)" fill="white" />
+                      <circle cx="11.6228" cy="10.9839" r="1.12081" transform="rotate(90 11.6228 10.9839)" fill="white" />
+                      <circle cx="21.262" cy="20.8469" r="1.12081" transform="rotate(90 21.262 20.8469)" fill="white" />
+                      <circle cx="1.76005" cy="20.8469" r="1.12081" transform="rotate(90 1.76005 20.8469)" fill="white" />
+                      <circle cx="11.6228" cy="20.8469" r="1.12081" transform="rotate(90 11.6228 20.8469)" fill="white" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+              <div class="bg-white group hover:bg-primary shadow-service py-10 px-8 rounded-xl relative z-10 overflow-hidden text-center duration-200 mb-8">
+                <div
+                  class="mx-auto w-20 h-20 mb-6 rounded-full bg-primary flex items-center justify-center text-white group-hover:bg-white group-hover:text-primary"
+                >
+                  <svg width="30" height="30" viewBox="0 0 30 30" class="fill-current">
+                    <path d="M16.6667 0V13.3333H30V0H16.6667ZM0 30H13.3333V16.6667H0V30ZM0 0V13.3333H13.3333V0H0ZM16.6667 21.6667H21.6667V16.6667H25V21.6667H30V25H25V30H21.6667V25H16.6667V21.6667Z" />
+                  </svg>
+                </div>
+                <h3 class="font-bold text-black text-xl sm:text-2xl lg:text-xl 2xl:text-2xl group-hover:text-white mb-3">Programming</h3>
+                <p class="font-medium text-body-color group-hover:text-white leading-relaxed text-sm">
+                  <b>Backend</b>: Python, Java, MySQL <br> 
+                  <b>Frontend</b>: HTML, CSS, JavaScript <br>
+                  <b>Frameworks</b>: Tailwind CSS
+                </p>
+                <div>
+                  <span class="absolute top-0 right-0 -z-1">
+                    <svg width="218" height="109" viewBox="0 0 218 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle opacity="0.05" cx="156.5" cy="-47.5" r="156.5" fill="white" />
+                      <circle opacity="0.08" cx="210" cy="6" r="62" fill="white" />
+                    </svg>
+                  </span>
+                  <span class="absolute bottom-1 left-1 -z-1">
+                    <svg width="23" height="32" viewBox="0 0 23 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="21.262" cy="1.12081" r="1.12081" transform="rotate(90 21.262 1.12081)" fill="white" />
+                      <circle cx="21.262" cy="30.4863" r="1.12081" transform="rotate(90 21.262 30.4863)" fill="white" />
+                      <circle cx="1.76005" cy="1.12081" r="1.12081" transform="rotate(90 1.76005 1.12081)" fill="white" />
+                      <circle cx="1.76005" cy="30.4863" r="1.12081" transform="rotate(90 1.76005 30.4863)" fill="white" />
+                      <circle cx="11.6228" cy="1.12081" r="1.12081" transform="rotate(90 11.6228 1.12081)" fill="white" />
+                      <circle cx="11.6228" cy="30.4863" r="1.12081" transform="rotate(90 11.6228 30.4863)" fill="white" />
+                      <circle cx="21.262" cy="10.9839" r="1.12081" transform="rotate(90 21.262 10.9839)" fill="white" />
+                      <circle cx="1.76005" cy="10.9839" r="1.12081" transform="rotate(90 1.76005 10.9839)" fill="white" />
+                      <circle cx="11.6228" cy="10.9839" r="1.12081" transform="rotate(90 11.6228 10.9839)" fill="white" />
+                      <circle cx="21.262" cy="20.8469" r="1.12081" transform="rotate(90 21.262 20.8469)" fill="white" />
+                      <circle cx="1.76005" cy="20.8469" r="1.12081" transform="rotate(90 1.76005 20.8469)" fill="white" />
+                      <circle cx="11.6228" cy="20.8469" r="1.12081" transform="rotate(90 11.6228 20.8469)" fill="white" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Skills Section End  -->
+
+    <!-- ====== Project Portfolio Section Start  -->
+    <section id="projects" class="pt-[120px] pb-[70px] bg-[#f8f9ff]">
+      <div class="container">
+        <div class="flex flex-wrap mx-[-16px]">
+          <div class="w-full px-4">
+            <div class="max-w-[600px] mx-auto text-center mb-[50px]">
+              <span class="font-semibold text-lg text-primary block mb-2"> What I Create </span>
+              <h2 class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5">Project Portfolio</h2>
+              <p class="font-medium text-lg text-body-color">I have taken the knowledge I gained from the classroom and applied them to real-world issues.</p>
+            </div>
+          </div>
+          <div class="w-full px-4">
+            <div class="portfolio-buttons flex flex-wrap items-center justify-center mb-12">
+              <button class="sm:font-semibold text-sm sm:text-base block py-2 px-5 md:mx-2 mb-2 rounded-full text-body-color active" data-filter="*">All</button>
+              <button
+                class="sm:font-semibold text-sm sm:text-base block py-2 px-5 md:mx-2 mb-2 rounded-full text-body-color hover:bg-primary hover:text-white"
+                data-filter=".hf"
+              >
+                Human Factors
+              </button>
+              <button
+                class="sm:font-semibold text-sm sm:text-base block py-2 px-5 md:mx-2 mb-2 rounded-full text-body-color hover:bg-primary hover:text-white"
+                data-filter=".web"
+              >
+                Web Development
+              </button>
+              <button
+                class="sm:font-semibold text-sm sm:text-base block py-2 px-5 md:mx-2 mb-2 rounded-full text-body-color hover:bg-primary hover:text-white"
+                data-filter=".programming"
+              >
+                Programming
+              </button> 
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-container flex justify-center -mx-4">
+          <div class="w-full xl:w-10/12 px-4">
+            <div class="items-wrapper flex flex-wrap justify-center mx-[-16px]">
+              <div class="w-full md:w-1/2 px-4 item hf">
+                <div class="mb-12">
+                  <div class="relative group mb-8 overflow-hidden shadow-service rounded-md">
+                    <img src="images/portfolio/portfolio-01.jpg" alt="image" class="w-full" />
+                    <div
+                      class="absolute w-full h-full top-0 left-0 bg-primary bg-opacity-[17%] flex items-center justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition"
+                    >
+                      <a href="images/portfolio/portfolio-01.jpg" class="glightbox w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <h3 class="mt-6">
+                    <a href="projects-brownout.html" class="font-semibold text-black hover:text-primary text-xl inline-block mb-3"> Helicopter Brownout Mitigation </a>
+                  </h3>
+                  <p class="font-medium text-base text-body-color">Analyzed visual cues used during flight to design a system that reproduces the cues in degraded visual environments.</p>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 px-4 item hf">
+                <div class="mb-12">
+                  <div class="relative group mb-8 overflow-hidden shadow-service rounded-md">
+                    <img src="images/portfolio/portfolio-02.jpg" alt="image" class="w-full" style="object-fit:cover;width:550px;height:292px;" />
+                    <div
+                      class="absolute w-full h-full top-0 left-0 bg-primary bg-opacity-[17%] flex items-center justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition"
+                    >
+                      <a href="images/portfolio/portfolio-02.jpg" class="glightbox w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <h3 class="mt-6">
+                    <a href="projects-ehmi.html" class="font-semibold text-black hover:text-primary text-xl inline-block mb-3"> Human-Machine Interface Conceptual Design</a>
+                  </h3>
+                  <p class="font-medium text-base text-body-color">Investigated the interaction between pedestrians and autonomous vehicles to prototype an interface that links communication.</p>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 px-4 item web programming">
+                <div class="mb-12">
+                  <div class="relative group mb-8 overflow-hidden shadow-service rounded-md">
+                    <img src="images/portfolio/portfolio-03.png" alt="image" class="w-full" />
+                    <div
+                      class="absolute w-full h-full top-0 left-0 bg-primary bg-opacity-[17%] flex items-center justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition"
+                    >
+                      <a href="images/portfolio/portfolio-03.png" class="glightbox w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <h3 class="mt-6">
+                    <a href="projects-dreslin-consulting.html" class="font-semibold text-black hover:text-primary text-xl inline-block mb-3"> Dreslin Consulting Group Website </a>
+                  </h3>
+                  <p class="font-medium text-base text-body-color">Built my consulting business website from the ground up using the latest technologies and APIs.</p>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 px-4 item web programming">
+                <div class="mb-12">
+                  <div class="relative group mb-8 overflow-hidden shadow-service rounded-md">
+                    <img src="images/portfolio/portfolio-04.png" alt="image" class="w-full" />
+                    <div
+                      class="absolute w-full h-full top-0 left-0 bg-primary bg-opacity-[17%] flex items-center justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition"
+                    >
+                      <a href="images/portfolio/portfolio-04-04.jpg" class="glightbox w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <h3 class="mt-6">
+                    <a href="projects-a-fishermans-life.html" class="font-semibold text-black hover:text-primary text-xl inline-block mb-3"> A Fisherman's Life Website </a>
+                  </h3>
+                  <p class="font-medium text-base text-body-color">Designed and developed a fictional business website to showcase UI design and frontend development skills.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Project Portfolio Section End  -->
+
+    <!-- ====== Clients Section Start  -->
+    <section id="clients" class="pt-20 pb-[250px] bg-black relative">
+      <div class="container">
+        <div class="flex flex-wrap mx-[-16px]">
+          <div class="w-full px-4">
+            <div class="max-w-[570px] mx-auto mb-12 text-center">
+              <h2 class="font-bold text-3xl md:text-4xl text-white mb-4">Certifications</h2>
+              <p class="font-medium text-lg text-body-color">Click on any of the company logos to learn more about my certifications.</p>
+            </div>
+          </div>
+          <div class="w-full px-4">
+            <div
+              class="flex flex-wrap items-center justify-center wow fadeInUp"
+              data-wow-delay=".1s
+              "
+            >
+              <a
+                href="http://www.citiprogram.org/verify/?we681c99d-9a4f-4944-8b09-33c8e2c79bdf-52806496"
+                target="_blank"
+                rel="nofollow noreferrer"
+                class="flex items-center justify-center max-w-[120px] lg:max-w-[130px] xl:max-w-[150px] 2xl:max-w-[160px] mx-3 sm:mx-4 xl:mx-6 2xl:mx-8 py-[15px] grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition"
+              >
+                <img src="images/brands/citi.svg" alt="uideck" />
+              </a>
+              <a
+                href="http://www.citiprogram.org/verify/?w992c79f3-b022-4179-87e5-61592f871d9a-46234962"
+                target="_blank"
+                rel="nofollow noreferrer"
+                class="flex items-center justify-center max-w-[120px] lg:max-w-[130px] xl:max-w-[150px] 2xl:max-w-[160px] mx-3 sm:mx-4 xl:mx-6 2xl:mx-8 py-[15px] grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition"
+              >
+                <img src="images/brands/citi.svg" alt="tailgrids" />
+              </a>
+              <a
+                href="http://notaries.dos.state.fl.us/NotIdSearch.asp?ID=1727944"
+                target="_blank"
+                rel="nofollow noreferrer"
+                class="flex items-center justify-center max-w-[120px] lg:max-w-[130px] xl:max-w-[150px] 2xl:max-w-[160px] mx-3 sm:mx-4 xl:mx-6 2xl:mx-8 py-[15px] grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition"
+              >
+                <img src="images/brands/floridaseal.svg" alt="lineicons" />
+              </a>
+              <a
+                href="https://www.credly.com/badges/9a7f32b2-94a4-4f77-8889-ea134158b51a/linked_in_profile"
+                target="_blank"
+                rel="nofollow noreferrer"
+                class="flex items-center justify-center max-w-[120px] lg:max-w-[130px] xl:max-w-[150px] 2xl:max-w-[160px] mx-3 sm:mx-4 xl:mx-6 2xl:mx-8 py-[15px] grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition"
+              >
+                <img src="images/brands/autodesk.png" alt="ayroui" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Clients Section End  -->
+
+
+    <!-- ====== Education Section Start  -->
+    <section id="education" class="pt-[120px] bg-white relative z-10">
+      <div class="container">
+        <div class="border-b border-[#E9ECF8] pb-[70px]">
+          <div class="flex flex-wrap mx-[-16px]">
+            <div class="w-full px-4">
+              <div class="max-w-[600px] mx-auto text-center mb-[50px]">
+                <span class="font-semibold text-lg text-primary block mb-2"> Why I'm Passionate </span>
+                <h2 class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5">Education & Experience</h2>
+                <p class="font-medium text-lg text-body-color">I discovered the intersection between humans and technology through my education. I strive to apply what I learn through my experiences.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative pt-12">
+            <span class="absolute top-0 block left-2 lg:left-1/2 w-[1px] h-full bg-[#d7dfff]"></span>
+
+            <div class="flex flex-wrap -mx-4">
+              <div class="w-full lg:w-1/2 px-4">
+                <div class="lg:max-w-[428px] xl:max-w-[490px] w-full ml-auto pl-8 sm:pl-11 lg:pl-0 lg:pr-0 lg:mr-5 lg:text-right relative pb-12">
+                  <span class="absolute top-1 left-0 lg:left-auto lg:-right-11 w-4 h-4 rounded-full bg-white border-4 border-primary"></span>
+                  <h3 class="font-semibold text-xl text-black mb-1">M.S. Human Factors</h3>
+                  <p class="font-semibold text-base text-body-color mb-3">Embry-Riddle Aeronautical Univeristy</p>
+                  <span class="inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5"> 2023 - 2024 </span>
+                  <p class="font-medium text-base text-body-color">
+                    Accelerated B.S./M.S. Human Factors student.
+                  </p>
+                </div>
+              </div>
+              <div class="w-full lg:w-1/2 px-4"></div>
+              <div class="w-full lg:w-1/2 px-4"></div>
+              <div class="w-full lg:w-1/2 px-4">
+                <div class="lg:max-w-[428px] xl:max-w-[490px] w-full pl-8 sm:pl-11 lg:pl-0 lg:ml-5 relative pb-12">
+                  <span class="absolute top-1 left-0 lg:-left-11 w-4 h-4 rounded-full bg-white border-4 border-primary"></span>
+                  <h3 class="font-semibold text-xl text-black mb-1">Undergraduate Researcher</h3>
+                  <p class="font-semibold text-base text-body-color mb-3">Embry-Riddle Aeronautical Univeristy</p>
+                  <span class="inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5"> 2022 - Present </span>
+                  <p class="font-medium text-base text-body-color">
+                    Hired to conduct research within the Applied Perception and Performance Laboratory.
+                  </p>
+                </div>
+              </div>
+              <div class="w-full lg:w-1/2 px-4">
+                <div class="lg:max-w-[428px] xl:max-w-[490px] w-full ml-auto pl-8 sm:pl-11 lg:pl-0 lg:pr-0 lg:mr-5 lg:text-right relative pb-12">
+                  <span class="absolute top-1 left-0 lg:left-auto lg:-right-11 w-4 h-4 rounded-full bg-white border-4 border-primary"></span>
+                  <h3 class="font-semibold text-xl text-black mb-1">B.S. Human Factors Psychology</h3>
+                  <p class="font-semibold text-base text-body-color mb-3">Embry-Riddle Aeronautical Univeristy</p>
+                  <span class="inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5"> 2021 - 2023 </span>
+                  <p class="font-medium text-base text-body-color">
+                    Minor: Aerospace Life Sciences
+                  </p>
+                </div>
+              </div>
+              <div class="w-full lg:w-1/2 px-4"></div>
+              <div class="w-full lg:w-1/2 px-4"></div>
+              <div class="w-full lg:w-1/2 px-4">
+                <div class="lg:max-w-[428px] xl:max-w-[490px] w-full pl-8 sm:pl-11 lg:pl-0 lg:ml-5 relative pb-12">
+                  <span class="absolute top-1 left-0 lg:-left-11 w-4 h-4 rounded-full bg-white border-4 border-primary"></span>
+                  <h3 class="font-semibold text-xl text-black mb-1">Computer Programming Specialist Certificate, Java Specialization</h3>
+                  <p class="font-semibold text-base text-body-color mb-3">St. Petersburg College</p>
+                  <span class="inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5"> 2020 - 2023 </span>
+                  <p class="font-medium text-base text-body-color">
+                    18 credit-hour certification program emphasizing backend and Android programming.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <span class="absolute right-0 top-0 z-0">
+          <svg width="455" height="1307" viewBox="0 0 455 1307" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect opacity="0.08" width="332.05" height="1060.35" transform="matrix(-0.632736 -0.774367 -0.774367 0.632736 1031.2 139.128)" fill="url(#paint0_linear_0:1)" />
+            <rect opacity="0.08" width="509.849" height="1060.35" transform="matrix(-0.632736 -0.774367 -0.774367 0.632736 1293.7 635.81)" fill="url(#paint1_linear_0:1)" />
+            <defs>
+              <linearGradient id="paint0_linear_0:1" x1="166.025" y1="0" x2="166.025" y2="1060.35" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+              <linearGradient id="paint1_linear_0:1" x1="254.924" y1="0" x2="254.924" y2="1060.35" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="absolute left-0 bottom-0 z-[-1]">
+          <svg width="416" height="1453" viewBox="0 0 416 1453" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect opacity="0.08" width="332.05" height="1030.82" transform="matrix(0.632736 0.774368 0.774368 -0.632736 -603 1507.24)" fill="url(#paint0_linear_0:1)" />
+            <rect opacity="0.08" width="791.583" height="1060.35" transform="matrix(0.632736 0.774368 0.774368 -0.632736 -906.263 670.922)" fill="url(#paint1_linear_0:1)" />
+            <defs>
+              <linearGradient id="paint0_linear_0:1" x1="166.025" y1="0" x2="166.025" y2="1030.82" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+              <linearGradient id="paint1_linear_0:1" x1="395.791" y1="0" x2="395.791" y2="1060.35" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+      </div>
+    </section>
+    <!-- ====== Education Section End  -->
+
+    <!-- ====== Work Samples Section Start  -->
+    <section id="samples" class="pt-[120px]">
+      <div class="container">
+        <div class="pb-20 border-b border-[#E9ECF8]">
+          <div class="flex flex-wrap mx-[-16px]">
+            <div class="w-full px-4">
+              <div class="max-w-[600px] mx-auto text-center mb-[50px]">
+                <span class="font-semibold text-lg text-primary block mb-2"> Where I Publish </span>
+                <h2 class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5">Work Samples</h2>
+                <p class="font-medium text-lg text-body-color">I take pride in my work and aim to produce quality deliverables.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap justify-center -mx-4">
+            <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+              <div class="bg-white rounded-2xl relative px-9 lg:px-5 2xl:px-9 pt-14 pb-11 z-10 text-center group hover:shadow-pricing transition mb-10">
+                <h3 class="font-semibold text-2xl text-black mb-4">ORCiD</h3>
+                <p class="font-medium text-body-color text-base leading-relaxed mb-10 max-w-[260px] mx-auto">
+                  See my research interests, education, memberships, funding, and works.
+                </p>
+                <p class="font-bold text-4xl text-primary mb-8">Research</p>
+                <a
+                  target="_blank" rel="noopener noreferrer" href="https://orcid.org/0000-0002-0442-9504"
+                  class="inline-flex py-3 px-8 rounded-full border border-[#d7dfff] font-semibold text-base text-body-color transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white"
+                >
+                  View Work
+                </a>
+
+                <div>
+                  <span class="absolute top-2 left-2 opacity-0 group-hover:opacity-100">
+                    <svg width="22" height="32" viewBox="0 0 22 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.6228" cy="1.12081" r="1.12081" transform="rotate(90 20.6228 1.12081)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="30.4863" r="1.12081" transform="rotate(90 20.6228 30.4863)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="1.12081" r="1.12081" transform="rotate(90 1.12089 1.12081)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="30.4863" r="1.12081" transform="rotate(90 1.12089 30.4863)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="1.12081" r="1.12081" transform="rotate(90 10.9837 1.12081)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="30.4863" r="1.12081" transform="rotate(90 10.9837 30.4863)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="10.9839" r="1.12081" transform="rotate(90 20.6228 10.9839)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="10.9839" r="1.12081" transform="rotate(90 1.12089 10.9839)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="10.9839" r="1.12081" transform="rotate(90 10.9837 10.9839)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="20.8469" r="1.12081" transform="rotate(90 20.6228 20.8469)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="20.8469" r="1.12081" transform="rotate(90 1.12089 20.8469)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="20.8469" r="1.12081" transform="rotate(90 10.9837 20.8469)" fill="#4A6CF7" />
+                    </svg>
+                  </span>
+                  <span class="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100">
+                    <svg width="22" height="32" viewBox="0 0 22 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.6228" cy="1.12081" r="1.12081" transform="rotate(90 20.6228 1.12081)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="30.4863" r="1.12081" transform="rotate(90 20.6228 30.4863)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="1.12081" r="1.12081" transform="rotate(90 1.12089 1.12081)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="30.4863" r="1.12081" transform="rotate(90 1.12089 30.4863)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="1.12081" r="1.12081" transform="rotate(90 10.9837 1.12081)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="30.4863" r="1.12081" transform="rotate(90 10.9837 30.4863)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="10.9839" r="1.12081" transform="rotate(90 20.6228 10.9839)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="10.9839" r="1.12081" transform="rotate(90 1.12089 10.9839)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="10.9839" r="1.12081" transform="rotate(90 10.9837 10.9839)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="20.8469" r="1.12081" transform="rotate(90 20.6228 20.8469)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="20.8469" r="1.12081" transform="rotate(90 1.12089 20.8469)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="20.8469" r="1.12081" transform="rotate(90 10.9837 20.8469)" fill="#4A6CF7" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+              <div class="bg-white rounded-2xl relative px-9 lg:px-5 2xl:px-9 pt-14 pb-11 z-10 text-center group hover:shadow-pricing transition mb-10">
+                <h3 class="font-semibold text-2xl text-black mb-4">Google Drive</h3>
+                <p class="font-medium text-body-color text-base leading-relaxed mb-10 max-w-[260px] mx-auto">
+                  See report writing projects and applications of human factors methods documentation.
+                </p>
+                <p class="font-bold text-4xl text-primary mb-8">Writing</p>
+                <a
+                  target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/14CU04s1SZvluzPVBoQtsfrpTZ4ZayKgW?usp=sharing"
+                  class="inline-flex py-3 px-8 rounded-full border border-[#d7dfff] font-semibold text-base text-body-color transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white"
+                >
+                  View Work
+                </a>
+
+                <div>
+                  <span class="absolute top-2 left-2 opacity-0 group-hover:opacity-100">
+                    <svg width="22" height="32" viewBox="0 0 22 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.6228" cy="1.12081" r="1.12081" transform="rotate(90 20.6228 1.12081)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="30.4863" r="1.12081" transform="rotate(90 20.6228 30.4863)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="1.12081" r="1.12081" transform="rotate(90 1.12089 1.12081)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="30.4863" r="1.12081" transform="rotate(90 1.12089 30.4863)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="1.12081" r="1.12081" transform="rotate(90 10.9837 1.12081)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="30.4863" r="1.12081" transform="rotate(90 10.9837 30.4863)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="10.9839" r="1.12081" transform="rotate(90 20.6228 10.9839)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="10.9839" r="1.12081" transform="rotate(90 1.12089 10.9839)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="10.9839" r="1.12081" transform="rotate(90 10.9837 10.9839)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="20.8469" r="1.12081" transform="rotate(90 20.6228 20.8469)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="20.8469" r="1.12081" transform="rotate(90 1.12089 20.8469)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="20.8469" r="1.12081" transform="rotate(90 10.9837 20.8469)" fill="#4A6CF7" />
+                    </svg>
+                  </span>
+                  <span class="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100">
+                    <svg width="22" height="32" viewBox="0 0 22 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.6228" cy="1.12081" r="1.12081" transform="rotate(90 20.6228 1.12081)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="30.4863" r="1.12081" transform="rotate(90 20.6228 30.4863)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="1.12081" r="1.12081" transform="rotate(90 1.12089 1.12081)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="30.4863" r="1.12081" transform="rotate(90 1.12089 30.4863)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="1.12081" r="1.12081" transform="rotate(90 10.9837 1.12081)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="30.4863" r="1.12081" transform="rotate(90 10.9837 30.4863)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="10.9839" r="1.12081" transform="rotate(90 20.6228 10.9839)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="10.9839" r="1.12081" transform="rotate(90 1.12089 10.9839)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="10.9839" r="1.12081" transform="rotate(90 10.9837 10.9839)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="20.8469" r="1.12081" transform="rotate(90 20.6228 20.8469)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="20.8469" r="1.12081" transform="rotate(90 1.12089 20.8469)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="20.8469" r="1.12081" transform="rotate(90 10.9837 20.8469)" fill="#4A6CF7" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+              <div class="bg-white rounded-2xl relative px-9 lg:px-5 2xl:px-9 pt-14 pb-11 z-10 text-center group hover:shadow-pricing transition mb-10">
+                <h3 class="font-semibold text-2xl text-black mb-4">GitHub</h3>
+                <p class="font-medium text-body-color text-base leading-relaxed mb-10 max-w-[260px] mx-auto">
+                  See my GitHub stats, repositories, commits, fixes, and live code.
+                </p>
+                <p class="font-bold text-4xl text-primary mb-8">Programming</p>
+                <a
+                  target="_blank" rel="noopener noreferrer" href="https://github.com/bdreslin02"
+                  class="inline-flex py-3 px-8 rounded-full border border-[#d7dfff] font-semibold text-base text-body-color transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white"
+                >
+                  View Work
+                </a>
+
+                <div>
+                  <span class="absolute top-2 left-2 opacity-0 group-hover:opacity-100">
+                    <svg width="22" height="32" viewBox="0 0 22 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.6228" cy="1.12081" r="1.12081" transform="rotate(90 20.6228 1.12081)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="30.4863" r="1.12081" transform="rotate(90 20.6228 30.4863)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="1.12081" r="1.12081" transform="rotate(90 1.12089 1.12081)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="30.4863" r="1.12081" transform="rotate(90 1.12089 30.4863)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="1.12081" r="1.12081" transform="rotate(90 10.9837 1.12081)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="30.4863" r="1.12081" transform="rotate(90 10.9837 30.4863)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="10.9839" r="1.12081" transform="rotate(90 20.6228 10.9839)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="10.9839" r="1.12081" transform="rotate(90 1.12089 10.9839)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="10.9839" r="1.12081" transform="rotate(90 10.9837 10.9839)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="20.8469" r="1.12081" transform="rotate(90 20.6228 20.8469)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="20.8469" r="1.12081" transform="rotate(90 1.12089 20.8469)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="20.8469" r="1.12081" transform="rotate(90 10.9837 20.8469)" fill="#4A6CF7" />
+                    </svg>
+                  </span>
+                  <span class="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100">
+                    <svg width="22" height="32" viewBox="0 0 22 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20.6228" cy="1.12081" r="1.12081" transform="rotate(90 20.6228 1.12081)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="30.4863" r="1.12081" transform="rotate(90 20.6228 30.4863)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="1.12081" r="1.12081" transform="rotate(90 1.12089 1.12081)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="30.4863" r="1.12081" transform="rotate(90 1.12089 30.4863)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="1.12081" r="1.12081" transform="rotate(90 10.9837 1.12081)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="30.4863" r="1.12081" transform="rotate(90 10.9837 30.4863)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="10.9839" r="1.12081" transform="rotate(90 20.6228 10.9839)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="10.9839" r="1.12081" transform="rotate(90 1.12089 10.9839)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="10.9839" r="1.12081" transform="rotate(90 10.9837 10.9839)" fill="#4A6CF7" />
+                      <circle cx="20.6228" cy="20.8469" r="1.12081" transform="rotate(90 20.6228 20.8469)" fill="#4A6CF7" />
+                      <circle cx="1.12089" cy="20.8469" r="1.12081" transform="rotate(90 1.12089 20.8469)" fill="#4A6CF7" />
+                      <circle cx="10.9837" cy="20.8469" r="1.12081" transform="rotate(90 10.9837 20.8469)" fill="#4A6CF7" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Work Samples Section End  -->
+
+   <!-- ====== Testimonial Section Start  -->
+    <!-- <section id="testimonial" class="pt-[120px] pb-20">
+      <div class="container">
+        <div class="flex flex-wrap mx-[-16px]">
+          <div class="w-full px-4">
+            <div class="max-w-[600px] mx-auto text-center mb-[50px]">
+              <span class="font-semibold text-lg text-primary block mb-2"> Awesome Testimonials </span>
+              <h2 class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5">Hear From My Clients</h2>
+              <p class="font-medium text-lg text-body-color">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full lg:w-1/2 px-4">
+            <div class="bg-white rounded-xl relative overflow-hidden px-7 sm:px-10 p-10 shadow-testimonial mb-10">
+              <div class="mb-5">
+                <img src="images/testimonial/lineicon.svg" alt="lineicons" class="h-5" />
+              </div>
+              <p class="font-medium text-lg text-body-color mb-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.
+              </p>
+              <div class="flex items-center">
+                <div class="max-w-[60px] w-full h-[60px] rounded-full overflow-hidden mr-3">
+                  <img src="images/testimonial/image-1.png" alt="image" class="w-full" />
+                </div>
+                <div>
+                  <h3 class="font-semibold text-base text-black mb-1">Musharof Chy</h3>
+                  <p class="text-sm text-body-color">Founder @ LineIcons</p>
+                </div>
+              </div>
+              <div class="absolute bottom-8 right-8">
+                <svg width="51" height="29" viewBox="0 0 51 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.15">
+                    <path
+                      d="M12.4311 0.00142075C7.14984 -0.0798293 2.35609 3.33267 1.21859 7.96392C0.568593 10.8077 1.13734 13.6514 2.84359 15.9264C4.63109 18.3639 7.39359 19.9077 10.4811 20.3139L13.3248 27.3014C13.6498 28.0327 14.3811 28.5202 15.1936 28.5202C16.0061 28.5202 16.7373 28.0327 17.0623 27.3014C17.5498 26.0827 18.1186 24.7827 18.6873 23.5639C20.0686 20.4764 21.4498 17.3077 22.5061 14.0577C23.6436 10.6452 23.1561 6.98892 21.2061 4.22642C19.2561 1.54517 16.1686 0.0826707 12.4311 0.00142075ZM19.8248 13.2452C18.7686 16.3327 17.3873 19.5014 16.0873 22.5077C15.8436 23.1577 15.5186 23.7264 15.2748 24.3764L12.5123 17.7139L11.6186 17.6327C9.01859 17.4702 6.58109 16.1702 5.19984 14.3014C3.98109 12.6764 3.57484 10.6452 4.06234 8.69517C4.87484 5.36392 8.36859 2.92642 12.3498 2.92642H12.4311C15.1936 2.92642 17.4686 4.06392 18.9311 6.01392C20.3123 7.96392 20.6373 10.7264 19.8248 13.2452Z"
+                      fill="#4A6CF7"
+                    />
+                    <path
+                      d="M49.0747 4.30772C47.1247 1.54522 44.0372 0.00146484 40.2997 0.00146484C40.2185 0.00146484 40.2185 0.00146484 40.1372 0.00146484C34.9372 0.00146484 30.2247 3.41397 29.0872 7.96397C28.4372 10.8077 29.006 13.6515 30.7122 16.0077C32.4997 18.4452 35.2622 19.989 38.3497 20.3952L41.1935 27.3827C41.5185 28.114 42.2497 28.6015 43.0622 28.6015C43.8747 28.6015 44.606 28.114 44.931 27.3827C45.4185 26.164 45.9872 24.864 46.556 23.6452C47.9372 20.5577 49.3185 17.389 50.3747 14.139C51.5122 10.8077 51.0247 7.07022 49.0747 4.30772ZM47.6935 13.2452C46.6372 16.3327 45.256 19.5015 43.956 22.5077C43.7122 23.1577 43.3872 23.7265 43.1435 24.3765L40.381 17.714L39.4872 17.6327C36.8872 17.4702 34.4497 16.1702 33.0685 14.3015C31.8497 12.6765 31.4435 10.6452 31.931 8.61397C32.7435 5.28272 36.2372 2.84521 40.2185 2.84521H40.2997C43.0622 2.84521 45.3372 3.98272 46.7997 5.93272C48.181 7.96397 48.506 10.7265 47.6935 13.2452Z"
+                      fill="#4A6CF7"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 px-4">
+            <div class="bg-white rounded-xl relative overflow-hidden px-7 sm:px-10 p-10 shadow-testimonial mb-10">
+              <div class="mb-5">
+                <img src="images/testimonial/tailgrid.svg" alt="tailgrids" class="h-7" />
+              </div>
+              <p class="font-medium text-lg text-body-color mb-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.
+              </p>
+              <div class="flex items-center">
+                <div class="max-w-[60px] w-full h-[60px] rounded-full overflow-hidden mr-3">
+                  <img src="images/testimonial/image-2.png" alt="image" class="w-full" />
+                </div>
+                <div>
+                  <h3 class="font-semibold text-base text-black mb-1">Devid Sailio</h3>
+                  <p class="text-sm text-body-color">Founder @ TailGrids</p>
+                </div>
+              </div>
+              <div class="absolute bottom-8 right-8">
+                <svg width="51" height="29" viewBox="0 0 51 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.15">
+                    <path
+                      d="M12.4311 0.00142075C7.14984 -0.0798293 2.35609 3.33267 1.21859 7.96392C0.568593 10.8077 1.13734 13.6514 2.84359 15.9264C4.63109 18.3639 7.39359 19.9077 10.4811 20.3139L13.3248 27.3014C13.6498 28.0327 14.3811 28.5202 15.1936 28.5202C16.0061 28.5202 16.7373 28.0327 17.0623 27.3014C17.5498 26.0827 18.1186 24.7827 18.6873 23.5639C20.0686 20.4764 21.4498 17.3077 22.5061 14.0577C23.6436 10.6452 23.1561 6.98892 21.2061 4.22642C19.2561 1.54517 16.1686 0.0826707 12.4311 0.00142075ZM19.8248 13.2452C18.7686 16.3327 17.3873 19.5014 16.0873 22.5077C15.8436 23.1577 15.5186 23.7264 15.2748 24.3764L12.5123 17.7139L11.6186 17.6327C9.01859 17.4702 6.58109 16.1702 5.19984 14.3014C3.98109 12.6764 3.57484 10.6452 4.06234 8.69517C4.87484 5.36392 8.36859 2.92642 12.3498 2.92642H12.4311C15.1936 2.92642 17.4686 4.06392 18.9311 6.01392C20.3123 7.96392 20.6373 10.7264 19.8248 13.2452Z"
+                      fill="#4A6CF7"
+                    />
+                    <path
+                      d="M49.0747 4.30772C47.1247 1.54522 44.0372 0.00146484 40.2997 0.00146484C40.2185 0.00146484 40.2185 0.00146484 40.1372 0.00146484C34.9372 0.00146484 30.2247 3.41397 29.0872 7.96397C28.4372 10.8077 29.006 13.6515 30.7122 16.0077C32.4997 18.4452 35.2622 19.989 38.3497 20.3952L41.1935 27.3827C41.5185 28.114 42.2497 28.6015 43.0622 28.6015C43.8747 28.6015 44.606 28.114 44.931 27.3827C45.4185 26.164 45.9872 24.864 46.556 23.6452C47.9372 20.5577 49.3185 17.389 50.3747 14.139C51.5122 10.8077 51.0247 7.07022 49.0747 4.30772ZM47.6935 13.2452C46.6372 16.3327 45.256 19.5015 43.956 22.5077C43.7122 23.1577 43.3872 23.7265 43.1435 24.3765L40.381 17.714L39.4872 17.6327C36.8872 17.4702 34.4497 16.1702 33.0685 14.3015C31.8497 12.6765 31.4435 10.6452 31.931 8.61397C32.7435 5.28272 36.2372 2.84521 40.2185 2.84521H40.2997C43.0622 2.84521 45.3372 3.98272 46.7997 5.93272C48.181 7.96397 48.506 10.7265 47.6935 13.2452Z"
+                      fill="#4A6CF7"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 px-4">
+            <div class="bg-white rounded-xl relative overflow-hidden px-7 sm:px-10 p-10 shadow-testimonial mb-10">
+              <div class="mb-5">
+                <img src="images/testimonial/ayro.svg" alt="ayroui" class="h-7" />
+              </div>
+              <p class="font-medium text-lg text-body-color mb-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.
+              </p>
+              <div class="flex items-center">
+                <div class="max-w-[60px] w-full h-[60px] rounded-full overflow-hidden mr-3">
+                  <img src="images/testimonial/image-3.png" alt="image" class="w-full" />
+                </div>
+                <div>
+                  <h3 class="font-semibold text-base text-black mb-1">Jenifer Lofeez</h3>
+                  <p class="text-sm text-body-color">Founder @ Ayro UI</p>
+                </div>
+              </div>
+              <div class="absolute bottom-8 right-8">
+                <svg width="51" height="29" viewBox="0 0 51 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.15">
+                    <path
+                      d="M12.4311 0.00142075C7.14984 -0.0798293 2.35609 3.33267 1.21859 7.96392C0.568593 10.8077 1.13734 13.6514 2.84359 15.9264C4.63109 18.3639 7.39359 19.9077 10.4811 20.3139L13.3248 27.3014C13.6498 28.0327 14.3811 28.5202 15.1936 28.5202C16.0061 28.5202 16.7373 28.0327 17.0623 27.3014C17.5498 26.0827 18.1186 24.7827 18.6873 23.5639C20.0686 20.4764 21.4498 17.3077 22.5061 14.0577C23.6436 10.6452 23.1561 6.98892 21.2061 4.22642C19.2561 1.54517 16.1686 0.0826707 12.4311 0.00142075ZM19.8248 13.2452C18.7686 16.3327 17.3873 19.5014 16.0873 22.5077C15.8436 23.1577 15.5186 23.7264 15.2748 24.3764L12.5123 17.7139L11.6186 17.6327C9.01859 17.4702 6.58109 16.1702 5.19984 14.3014C3.98109 12.6764 3.57484 10.6452 4.06234 8.69517C4.87484 5.36392 8.36859 2.92642 12.3498 2.92642H12.4311C15.1936 2.92642 17.4686 4.06392 18.9311 6.01392C20.3123 7.96392 20.6373 10.7264 19.8248 13.2452Z"
+                      fill="#4A6CF7"
+                    />
+                    <path
+                      d="M49.0747 4.30772C47.1247 1.54522 44.0372 0.00146484 40.2997 0.00146484C40.2185 0.00146484 40.2185 0.00146484 40.1372 0.00146484C34.9372 0.00146484 30.2247 3.41397 29.0872 7.96397C28.4372 10.8077 29.006 13.6515 30.7122 16.0077C32.4997 18.4452 35.2622 19.989 38.3497 20.3952L41.1935 27.3827C41.5185 28.114 42.2497 28.6015 43.0622 28.6015C43.8747 28.6015 44.606 28.114 44.931 27.3827C45.4185 26.164 45.9872 24.864 46.556 23.6452C47.9372 20.5577 49.3185 17.389 50.3747 14.139C51.5122 10.8077 51.0247 7.07022 49.0747 4.30772ZM47.6935 13.2452C46.6372 16.3327 45.256 19.5015 43.956 22.5077C43.7122 23.1577 43.3872 23.7265 43.1435 24.3765L40.381 17.714L39.4872 17.6327C36.8872 17.4702 34.4497 16.1702 33.0685 14.3015C31.8497 12.6765 31.4435 10.6452 31.931 8.61397C32.7435 5.28272 36.2372 2.84521 40.2185 2.84521H40.2997C43.0622 2.84521 45.3372 3.98272 46.7997 5.93272C48.181 7.96397 48.506 10.7265 47.6935 13.2452Z"
+                      fill="#4A6CF7"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 px-4">
+            <div class="bg-white rounded-xl relative overflow-hidden px-7 sm:px-10 p-10 shadow-testimonial mb-10">
+              <div class="mb-5">
+                <img src="images/testimonial/uidecks.svg" alt="uideck" class="h-7" />
+              </div>
+              <p class="font-medium text-lg text-body-color mb-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.
+              </p>
+              <div class="flex items-center">
+                <div class="max-w-[60px] w-full h-[60px] rounded-full overflow-hidden mr-3">
+                  <img src="images/testimonial/image-4.png" alt="image" class="w-full" />
+                </div>
+                <div>
+                  <h3 class="font-semibold text-base text-black mb-1">Justin Herry</h3>
+                  <p class="text-sm text-body-color">Founder @ UIdeck</p>
+                </div>
+              </div>
+              <div class="absolute bottom-8 right-8">
+                <svg width="51" height="29" viewBox="0 0 51 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.15">
+                    <path
+                      d="M12.4311 0.00142075C7.14984 -0.0798293 2.35609 3.33267 1.21859 7.96392C0.568593 10.8077 1.13734 13.6514 2.84359 15.9264C4.63109 18.3639 7.39359 19.9077 10.4811 20.3139L13.3248 27.3014C13.6498 28.0327 14.3811 28.5202 15.1936 28.5202C16.0061 28.5202 16.7373 28.0327 17.0623 27.3014C17.5498 26.0827 18.1186 24.7827 18.6873 23.5639C20.0686 20.4764 21.4498 17.3077 22.5061 14.0577C23.6436 10.6452 23.1561 6.98892 21.2061 4.22642C19.2561 1.54517 16.1686 0.0826707 12.4311 0.00142075ZM19.8248 13.2452C18.7686 16.3327 17.3873 19.5014 16.0873 22.5077C15.8436 23.1577 15.5186 23.7264 15.2748 24.3764L12.5123 17.7139L11.6186 17.6327C9.01859 17.4702 6.58109 16.1702 5.19984 14.3014C3.98109 12.6764 3.57484 10.6452 4.06234 8.69517C4.87484 5.36392 8.36859 2.92642 12.3498 2.92642H12.4311C15.1936 2.92642 17.4686 4.06392 18.9311 6.01392C20.3123 7.96392 20.6373 10.7264 19.8248 13.2452Z"
+                      fill="#4A6CF7"
+                    />
+                    <path
+                      d="M49.0747 4.30772C47.1247 1.54522 44.0372 0.00146484 40.2997 0.00146484C40.2185 0.00146484 40.2185 0.00146484 40.1372 0.00146484C34.9372 0.00146484 30.2247 3.41397 29.0872 7.96397C28.4372 10.8077 29.006 13.6515 30.7122 16.0077C32.4997 18.4452 35.2622 19.989 38.3497 20.3952L41.1935 27.3827C41.5185 28.114 42.2497 28.6015 43.0622 28.6015C43.8747 28.6015 44.606 28.114 44.931 27.3827C45.4185 26.164 45.9872 24.864 46.556 23.6452C47.9372 20.5577 49.3185 17.389 50.3747 14.139C51.5122 10.8077 51.0247 7.07022 49.0747 4.30772ZM47.6935 13.2452C46.6372 16.3327 45.256 19.5015 43.956 22.5077C43.7122 23.1577 43.3872 23.7265 43.1435 24.3765L40.381 17.714L39.4872 17.6327C36.8872 17.4702 34.4497 16.1702 33.0685 14.3015C31.8497 12.6765 31.4435 10.6452 31.931 8.61397C32.7435 5.28272 36.2372 2.84521 40.2185 2.84521H40.2997C43.0622 2.84521 45.3372 3.98272 46.7997 5.93272C48.181 7.96397 48.506 10.7265 47.6935 13.2452Z"
+                      fill="#4A6CF7"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- ====== Testimonial Section End  -->
+
+    <!-- ====== Blog Section Start  -->
+    <section id="news" class="pt-[120px] pb-20 bg-[#f8f9ff]">
+      <div class="container">
+        <div class="flex flex-wrap mx-[-16px]">
+          <div class="w-full px-4">
+            <div class="max-w-[600px] mx-auto text-center mb-[50px]">
+              <span class="font-semibold text-lg text-primary block mb-2"> Recent Posts </span>
+              <h2 class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5">From The Blog</h2>
+              <p class="font-medium text-lg text-body-color">A lot of my thoughts go untold - but not anymore. Read everything on my mind by exploring the articles below.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full lg:w-1/2 xl:w-1/3 px-4">
+            <div class="bg-white rounded-xl overflow-hidden mb-10 shadow-blog">
+              <a href="2022-11-21.html" class="block">
+                <img src="images/news/2022-11-21-index.png" alt="image" class="w-full" />
+              </a>
+              <div class="py-8 px-6 sm:px-11">
+                <h3>
+                  <a href="2022-11-21.html" class="font-semibold text-xl text-black hover:text-primary block mb-3 truncate"> Welcome to My New Website! </a>
+                </h3>
+                <p class="font-medium text-body-color text-base mb-4">I have designed and developed a refreshed personal website. What&#39;s next?</p>
+                <a href="2022-11-21.html" class="font-medium text-sm text-black underline hover:text-primary hover:no-underline"> Read More </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 xl:w-1/3 px-4">
+            <div class="bg-white rounded-xl overflow-hidden mb-10 shadow-blog">
+              <a href="2022-2-15.html" class="block">
+                <img src="images/news/2022-2-15-index.jpg" alt="image" class="w-full" />
+              </a>
+              <div class="py-8 px-6 sm:px-11">
+                <h3>
+                  <a href="2022-2-15.html" class="font-semibold text-xl text-black hover:text-primary block mb-3 truncate"> Human Factors in the Cockpit </a>
+                </h3>
+                <p class="font-medium text-body-color text-base mb-4">Humans and computers compete for dominance. Is there room for error?</p>
+                <a href="2022-2-15.html" class="font-medium text-sm text-black underline hover:text-primary hover:no-underline"> Read More </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 xl:w-1/3 px-4">
+            <div class="bg-white rounded-xl overflow-hidden mb-10 shadow-blog">
+              <a href="javascript:void(0)" class="block">
+                <img src="images/news/blog-3-index.png" alt="image" class="w-full" />
+              </a>
+              <div class="py-8 px-6 sm:px-11">
+                <h3>
+                  <a href="javascript:void(0)" class="font-semibold text-xl text-black hover:text-primary block mb-3 truncate"> Blog #3: Coming Soon!</a>
+                </h3>
+                <p class="font-medium text-body-color text-base mb-4">Be on the lookout for even more articles written by yours truly.</p>
+                <a href="javascript:void(0)" class="font-medium text-sm text-black underline hover:text-primary hover:no-underline"> Read More </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Blog Section End  -->
+
+    <!-- ====== Contact Section Start  -->
+    <section id="contact" class="py-[120px]">
+      <div class="container">
+        <div class="flex flex-wrap mx-[-16px]">
+          <div class="w-full px-4">
+            <div class="max-w-[600px] mx-auto text-center mb-[50px]">
+              <span class="font-semibold text-lg text-primary block mb-2"> Talk To Me </span>
+              <h2 class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5">Want to learn more?</h2>
+              <p class="font-medium text-lg text-body-color">Reach out to me with any questions or just to chat. I will get back to you in one business day or less.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center -mx-4">
+          <div class="w-full lg:w-9/12 px-4">
+            <form>
+              <div class="flex flex-wrap -mx-4">
+                <div class="w-full md:w-1/2 px-4">
+                  <div class="mb-6">
+                    <input type="text" placeholder="Name" class="input-field" />
+                  </div>
+                </div>
+                <div class="w-full md:w-1/2 px-4">
+                  <div class="mb-6">
+                    <input type="text" placeholder="Organization (Optional)" class="input-field" />
+                  </div>
+                </div>
+                <div class="w-full md:w-1/2 px-4">
+                  <div class="mb-6">
+                    <input type="email" placeholder="Email" class="input-field" />
+                  </div>
+                </div>
+                <div class="w-full md:w-1/2 px-4">
+                  <div class="mb-6">
+                    <input type="text" placeholder="Phone number" class="input-field" />
+                  </div>
+                </div>
+                <div class="w-full px-4">
+                  <div class="mb-6">
+                    <textarea rows="4" placeholder="Tell me about yourself" class="input-field resize-none"></textarea>
+                  </div>
+                </div>
+                <div class="w-full px-4">
+                  <div class="pt-4 text-center">
+                    <button
+                      type="submit" class="inline-flex justify-center items-center py-4 px-9 rounded-full font-semibold text-white bg-primary mx-auto transition duration-300 ease-in-out hover:shadow-signUp hover:bg-opacity-90"
+                    >
+                      Contact Me
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Contact Section End  -->
+
+    <!-- ====== Footer Section Start  -->
+    <footer class="bg-black pt-[100px] pb-12 relative z-10">
+      <div class="container">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-1/2 lg:w-4/12 px-4">
+            <div class="mb-10">
+              <h2 class="font-bold text-white text-[44px] leading-tight mb-5">Let's talk!</h2>
+              <h3 class="font-bold text-white opacity-70 text-2xl mb-2">Brandon Dreslin</h3>
+              <p class="font-medium text-base text-body-color mb-1"><a href="mailto:bdreslin@gmail.com">bdreslin@gmail.com</a></p>
+              <p class="font-medium text-base text-body-color mb-1"><a href="mailto:dreslinconsulting@gmail.com">dreslinconsulting@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-3/12 px-4">
+            <div class="mb-10">
+              <h3 class="font-semibold text-white text-xl mb-9">More From Me</h3>
+              <ul>
+                <li>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.mixcloud.com/thehumanfactor/" class="inline-block text-base text-body-color mb-3 hover:text-primary"> Music </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" class="inline-block text-base text-body-color mb-3 hover:text-primary"> Photography </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" class="inline-block text-base text-body-color mb-3 hover:text-primary"> Newsletter </a>
+                </li>
+                <li>
+                  <a href="#contact" class="inline-block text-base text-body-color mb-3 hover:text-primary"> Contact Me </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-2/12 px-4">
+            <div class="mb-10">
+              <h3 class="font-semibold text-white text-xl mb-9">Quick Links</h3>
+              <ul>
+                <li>
+                  <a href="blogs.html" class="inline-block text-base text-body-color mb-3 hover:text-primary"> Blog </a>
+                </li>
+                <li>
+                  <a target="_blank" rel="noopener noreferrer" href="https://linktr.ee/bdreslin" class="inline-block text-base text-body-color mb-3 hover:text-primary"> Linktree </a>
+                </li>
+                <li>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.dreslinconsult.com/index.html" class="inline-block text-base text-body-color mb-3 hover:text-primary"> Business Site </a>
+                </li>
+                <li>
+                  <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1fBgyo1VNV9NmIjrCApobeUKO3o1vkXGy/view?usp=sharing" class="inline-block text-base text-body-color mb-3 hover:text-primary"> Resume </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-3/12 px-4">
+            <div class="mb-10">
+              <h3 class="font-semibold text-white text-xl mb-9">Legal Stuff</h3>
+              <ul>
+                <li>
+                  <a href="imprint.html" class="inline-block text-base text-body-color mb-3 hover:text-primary"> Imprint </a>
+                </li>
+                <li>
+                  <a href="privacy.html" class="inline-block text-base text-body-color mb-3 hover:text-primary"> Privacy Policy </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-10 pt-12 border-t border-white border-opacity-10">
+          <div class="flex items-center justify-center mb-5">
+            <a
+              target="_blank" rel="noopener noreferrer"href="https://www.linkedin.com/in/bdreslin/"
+              class="flex items-center justify-center w-8 h-8 founded-full mx-2 text-body-color hover:text-primary"
+              aria-label="social-link"
+              name="social-link"
+            >
+              <svg width="32" height="32" viewBox="0 0 32 32" class="fill-current">
+                <path
+                  d="M16 0C7.16479 0 0 7.16479 0 16C0 24.8352 7.16479 32 16 32C24.8352 32 32 24.8352 32 16C32 7.16479 24.8352 0 16 0ZM11.3506 24.1875H7.45386V12.4641H11.3506V24.1875ZM9.40234 10.8633H9.37695C8.06934 10.8633 7.22363 9.96313 7.22363 8.83813C7.22363 7.68774 8.09521 6.8125 9.42822 6.8125C10.7612 6.8125 11.5815 7.68774 11.6069 8.83813C11.6069 9.96313 10.7612 10.8633 9.40234 10.8633ZM25.4014 24.1875H21.5051V17.9158C21.5051 16.3396 20.9409 15.2646 19.531 15.2646C18.4546 15.2646 17.8135 15.9897 17.5317 16.6897C17.4287 16.9402 17.4036 17.2903 17.4036 17.6406V24.1875H13.5071C13.5071 24.1875 13.5581 13.564 13.5071 12.4641H17.4036V14.124C17.9214 13.3252 18.8479 12.189 20.9153 12.189C23.479 12.189 25.4014 13.8645 25.4014 17.4653V24.1875Z"
+                />
+              </svg>
+            </a>
+            <a
+              target="_blank" rel="noopener noreferrer"href="https://twitter.com/brandon_dreslin"
+              class="flex items-center justify-center w-8 h-8 founded-full mx-2 text-body-color hover:text-primary"
+              aria-label="social-link"
+              name="social-link"
+            >
+              <svg width="32" height="32" viewBox="0 0 32 32" class="fill-current">
+                <path
+                  d="M16 0C7.16479 0 0 7.16479 0 16C0 24.8352 7.16479 32 16 32C24.8352 32 32 24.8352 32 16C32 7.16479 24.8352 0 16 0ZM23.3054 12.4751C23.3125 12.6326 23.3159 12.7908 23.3159 12.9497C23.3159 17.8025 19.6221 23.3984 12.8669 23.3987H12.8672H12.8669C10.793 23.3987 8.86304 22.7908 7.23779 21.749C7.52515 21.783 7.81763 21.7998 8.11377 21.7998C9.83447 21.7998 11.418 21.2129 12.675 20.2278C11.0674 20.198 9.71191 19.1362 9.24414 17.677C9.46802 17.72 9.69824 17.7434 9.93433 17.7434C10.2695 17.7434 10.5942 17.6982 10.9028 17.614C9.22241 17.2776 7.95654 15.7925 7.95654 14.0142C7.95654 13.9976 7.95654 13.9827 7.95703 13.9673C8.4519 14.2424 9.01782 14.408 9.62036 14.4265C8.63428 13.7686 7.98608 12.6438 7.98608 11.3696C7.98608 10.6968 8.16797 10.0664 8.4834 9.52368C10.2944 11.7458 13.001 13.2073 16.0532 13.3608C15.9902 13.0918 15.9578 12.8115 15.9578 12.5234C15.9578 10.4961 17.6025 8.85132 19.6306 8.85132C20.687 8.85132 21.6411 9.29785 22.3113 10.0117C23.1479 9.84668 23.9336 9.54102 24.6433 9.12036C24.3687 9.97754 23.7866 10.6968 23.0283 11.1516C23.7712 11.0627 24.4792 10.8657 25.1372 10.5732C24.6458 11.3098 24.0225 11.9568 23.3054 12.4751Z"
+                />
+              </svg>
+            </a>
+            <a
+              target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/brandon.dreslin.9/"
+              class="flex items-center justify-center w-8 h-8 founded-full mx-2 text-body-color hover:text-primary"
+              aria-label="social-link"
+              name="social-link"
+            >
+              <svg width="32" height="32" viewBox="0 0 32 32" class="fill-current" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M32 16C32 7.1625 24.8375 0 16 0C7.1625 0 0 7.1625 0 16C0 24.8375 7.1625 32 16 32C16.0938 32 16.1875 32 16.2812 31.9937V19.5438H12.8438V15.5375H16.2812V12.5875C16.2812 9.16875 18.3688 7.30625 21.4188 7.30625C22.8813 7.30625 24.1375 7.4125 24.5 7.4625V11.0375H22.4C20.7437 11.0375 20.4188 11.825 20.4188 12.9812V15.5312H24.3875L23.8687 19.5375H20.4188V31.3813C27.1063 29.4625 32 23.3062 32 16Z"
+                />
+              </svg>
+            </a>
+            <a
+              target="_blank" rel="noopener noreferrer"href="https://www.instagram.com/brandondreslin/"
+              class="flex items-center justify-center w-8 h-8 founded-full mx-2 text-body-color hover:text-primary"
+              aria-label="social-link"
+              name="social-link"
+            >
+              <svg width="32" height="32" viewBox="0 0 32 32" class="fill-current">
+                <path
+                  d="M19.0625 16C19.0625 17.6914 17.6914 19.0625 16 19.0625C14.3086 19.0625 12.9375 17.6914 12.9375 16C12.9375 14.3086 14.3086 12.9375 16 12.9375C17.6914 12.9375 19.0625 14.3086 19.0625 16Z"
+                />
+                <path
+                  d="M23.1621 10.5813C23.0149 10.1824 22.78 9.82129 22.4749 9.5249C22.1785 9.21973 21.8176 8.98486 21.4185 8.83765C21.0947 8.71191 20.6084 8.56226 19.7126 8.52148C18.7437 8.47729 18.4531 8.46777 16 8.46777C13.5466 8.46777 13.2561 8.47705 12.2874 8.52124C11.3916 8.56226 10.905 8.71191 10.5815 8.83765C10.1824 8.98486 9.82129 9.21973 9.52515 9.5249C9.21997 9.82129 8.98511 10.1821 8.83765 10.5813C8.71191 10.905 8.56226 11.3916 8.52148 12.2874C8.47729 13.2561 8.46777 13.5466 8.46777 16C8.46777 18.4531 8.47729 18.7437 8.52148 19.7126C8.56226 20.6084 8.71191 21.0947 8.83765 21.4185C8.98511 21.8176 9.21973 22.1785 9.5249 22.4749C9.82129 22.78 10.1821 23.0149 10.5813 23.1621C10.905 23.2881 11.3916 23.4377 12.2874 23.4785C13.2561 23.5227 13.5464 23.532 15.9998 23.532C18.4534 23.532 18.7439 23.5227 19.7124 23.4785C20.6082 23.4377 21.0947 23.2881 21.4185 23.1621C22.2197 22.853 22.853 22.2197 23.1621 21.4185C23.2878 21.0947 23.4375 20.6084 23.4785 19.7126C23.5227 18.7437 23.532 18.4531 23.532 16C23.532 13.5466 23.5227 13.2561 23.4785 12.2874C23.4377 11.3916 23.2881 10.905 23.1621 10.5813ZM16 20.7175C13.3943 20.7175 11.282 18.6055 11.282 15.9998C11.282 13.394 13.3943 11.282 16 11.282C18.6055 11.282 20.7178 13.394 20.7178 15.9998C20.7178 18.6055 18.6055 20.7175 16 20.7175ZM20.9043 12.198C20.2954 12.198 19.8018 11.7043 19.8018 11.0955C19.8018 10.4866 20.2954 9.99292 20.9043 9.99292C21.5132 9.99292 22.0068 10.4866 22.0068 11.0955C22.0066 11.7043 21.5132 12.198 20.9043 12.198Z"
+                />
+                <path
+                  d="M16 0C7.16479 0 0 7.16479 0 16C0 24.8352 7.16479 32 16 32C24.8352 32 32 24.8352 32 16C32 7.16479 24.8352 0 16 0ZM25.1321 19.7878C25.0876 20.7659 24.9321 21.4336 24.7051 22.0181C24.2278 23.2522 23.2522 24.2278 22.0181 24.7051C21.4338 24.9321 20.7659 25.0874 19.7881 25.1321C18.8083 25.1768 18.4954 25.1875 16.0002 25.1875C13.5049 25.1875 13.1921 25.1768 12.2122 25.1321C11.2344 25.0874 10.5664 24.9321 9.98218 24.7051C9.3689 24.4744 8.81372 24.1128 8.35474 23.6453C7.88745 23.1865 7.52588 22.6311 7.29517 22.0181C7.06812 21.4338 6.9126 20.7659 6.86816 19.7881C6.823 18.8081 6.8125 18.4951 6.8125 16C6.8125 13.5049 6.823 13.1919 6.86792 12.2122C6.91235 11.2341 7.06763 10.5664 7.29468 9.98193C7.52539 9.3689 7.88721 8.81348 8.35474 8.35474C8.81348 7.88721 9.3689 7.52563 9.98193 7.29492C10.5664 7.06787 11.2341 6.9126 12.2122 6.86792C13.1919 6.82324 13.5049 6.8125 16 6.8125C18.4951 6.8125 18.8081 6.82324 19.7878 6.86816C20.7659 6.9126 21.4336 7.06787 22.0181 7.29468C22.6311 7.52539 23.1865 7.88721 23.6455 8.35474C24.1128 8.81372 24.4746 9.3689 24.7051 9.98193C24.9324 10.5664 25.0876 11.2341 25.1323 12.2122C25.177 13.1919 25.1875 13.5049 25.1875 16C25.1875 18.4951 25.177 18.8081 25.1321 19.7878Z"
+                />
+              </svg>
+            </a>
+          </div>
+          <p class="font-medium text-base text-body-color text-center">Copyright &copy; 2022 Brandon Dreslin</p>
+        </div>
+      </div>
+
+      <div class="absolute left-0 bottom-0 -z-1" aria-label="shape" name="shape">
+        <span class="hidden">shape</span>
+        <svg width="143" height="138" viewBox="0 0 143 138" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="25" cy="118" r="101" stroke="url(#paint0_linear_52:83)" stroke-width="34" />
+          <defs>
+            <linearGradient id="paint0_linear_52:83" x1="-12.7969" y1="-37.3359" x2="99.2109" y2="173.773" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4A6CF7" />
+              <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="absolute right-3 top-3 -z-1" aria-label="shape" name="shape">
+        <span class="hidden">shape</span>
+        <svg width="61" height="77" viewBox="0 0 61 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.5">
+            <circle cx="45.0001" cy="1.66667" r="1.66667" transform="rotate(90 45.0001 1.66667)" fill="white" />
+            <circle cx="16.0001" cy="1.66667" r="1.66667" transform="rotate(90 16.0001 1.66667)" fill="white" />
+            <circle cx="59.0001" cy="1.66667" r="1.66667" transform="rotate(90 59.0001 1.66667)" fill="white" />
+            <circle cx="30.6668" cy="1.66667" r="1.66667" transform="rotate(90 30.6668 1.66667)" fill="white" />
+            <circle cx="1.66683" cy="1.66667" r="1.66667" transform="rotate(90 1.66683 1.66667)" fill="white" />
+            <circle cx="45.0001" cy="16.3332" r="1.66667" transform="rotate(90 45.0001 16.3332)" fill="white" />
+            <circle cx="16.0001" cy="16.3332" r="1.66667" transform="rotate(90 16.0001 16.3332)" fill="white" />
+            <circle cx="59.0001" cy="16.3332" r="1.66667" transform="rotate(90 59.0001 16.3332)" fill="white" />
+            <circle cx="30.6668" cy="16.3332" r="1.66667" transform="rotate(90 30.6668 16.3332)" fill="white" />
+            <circle cx="1.66683" cy="16.3332" r="1.66667" transform="rotate(90 1.66683 16.3332)" fill="white" />
+            <circle cx="45.0001" cy="31.0002" r="1.66667" transform="rotate(90 45.0001 31.0002)" fill="white" />
+            <circle cx="45.0001" cy="74.6667" r="1.66667" transform="rotate(90 45.0001 74.6667)" fill="white" />
+            <circle cx="16.0001" cy="31.0002" r="1.66667" transform="rotate(90 16.0001 31.0002)" fill="white" />
+            <circle cx="16.0001" cy="74.6667" r="1.66667" transform="rotate(90 16.0001 74.6667)" fill="white" />
+            <circle cx="59.0001" cy="31.0002" r="1.66667" transform="rotate(90 59.0001 31.0002)" fill="white" />
+            <circle cx="59.0001" cy="74.6667" r="1.66667" transform="rotate(90 59.0001 74.6667)" fill="white" />
+            <circle cx="30.6668" cy="31.0002" r="1.66667" transform="rotate(90 30.6668 31.0002)" fill="white" />
+            <circle cx="30.6668" cy="74.6667" r="1.66667" transform="rotate(90 30.6668 74.6667)" fill="white" />
+            <circle cx="1.66683" cy="31.0002" r="1.66667" transform="rotate(90 1.66683 31.0002)" fill="white" />
+            <circle cx="1.66683" cy="74.6667" r="1.66667" transform="rotate(90 1.66683 74.6667)" fill="white" />
+            <circle cx="45.0001" cy="45.6667" r="1.66667" transform="rotate(90 45.0001 45.6667)" fill="white" />
+            <circle cx="16.0001" cy="45.6667" r="1.66667" transform="rotate(90 16.0001 45.6667)" fill="white" />
+            <circle cx="59.0001" cy="45.6667" r="1.66667" transform="rotate(90 59.0001 45.6667)" fill="white" />
+            <circle cx="30.6668" cy="45.6667" r="1.66667" transform="rotate(90 30.6668 45.6667)" fill="white" />
+            <circle cx="1.66683" cy="45.6667" r="1.66667" transform="rotate(90 1.66683 45.6667)" fill="white" />
+            <circle cx="45.0001" cy="60.3332" r="1.66667" transform="rotate(90 45.0001 60.3332)" fill="white" />
+            <circle cx="16.0001" cy="60.3332" r="1.66667" transform="rotate(90 16.0001 60.3332)" fill="white" />
+            <circle cx="59.0001" cy="60.3332" r="1.66667" transform="rotate(90 59.0001 60.3332)" fill="white" />
+            <circle cx="30.6668" cy="60.3332" r="1.66667" transform="rotate(90 30.6668 60.3332)" fill="white" />
+            <circle cx="1.66683" cy="60.3332" r="1.66667" transform="rotate(90 1.66683 60.3332)" fill="white" />
+          </g>
+        </svg>
+      </div>
+    </footer>
+    <!-- ====== Footer Section End  -->
+
+    <!-- ====== Back To Top Start -->
+    <a
+      href="javascript:void(0)"
+      class="hidden items-center justify-center bg-primary text-white w-10 h-10 rounded-md fixed bottom-8 right-8 left-auto z-[999] hover:shadow-signUp transition duration-300 back-to-top"
+    >
+      <span class="w-3 h-3 border-t border-l border-white rotate-45 mt-[6px]"></span>
+    </a>
+    <!-- ====== Back To Top End -->
+
+    <!-- ====== All Scripts -->
+    <script>
+      // ==== for menu scroll
+      const pageLink = document.querySelectorAll('.menu-scroll');
+
+      pageLink.forEach((elem) => {
+        elem.addEventListener('click', (e) => {
+          e.preventDefault();
+          document.querySelector(elem.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth',
+            offsetTop: 1 - 60,
+          });
+        });
+      });
+
+      // section menu active
+      function onScroll(event) {
+        const sections = document.querySelectorAll('.menu-scroll');
+        const scrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+
+        for (let i = 0; i < sections.length; i++) {
+          const currLink = sections[i];
+          const val = currLink.getAttribute('href');
+          const refElement = document.querySelector(val);
+          const scrollTopMinus = scrollPos + 73;
+          if (refElement.offsetTop <= scrollTopMinus && refElement.offsetTop + refElement.offsetHeight > scrollTopMinus) {
+            document.querySelector('.menu-scroll').classList.remove('active');
+            currLink.classList.add('active');
+          } else {
+            currLink.classList.remove('active');
+          }
+        }
+      }
+
+      window.document.addEventListener('scroll', onScroll);
+    </script>
+  </body>
+</html>
